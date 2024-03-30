@@ -1,0 +1,41 @@
+object Form3: TForm3
+  Left = 316
+  Height = 145
+  Top = 213
+  Width = 558
+  Caption = 'Form3'
+  ClientHeight = 145
+  ClientWidth = 558
+  DesignTimePPI = 120
+  LCLVersion = '2.2.0.4'
+  object Edit1: TEdit
+    Left = 80
+    Height = 28
+    Top = 80
+    Width = 100
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 296
+    Height = 28
+    Top = 80
+    Width = 100
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 169
+    Height = 20
+    Top = 34
+    Width = 117
+    Caption = 'Укажите отрезок'
+  end
+  object Button1: TButton
+    Left = 432
+    Height = 31
+    Top = 32
+    Width = 94
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+end
